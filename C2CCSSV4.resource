@@ -308,18 +308,3 @@ Chia's design
 .tableRowOdd {background-color:#FFFFFF}
 .tableRowEven {background-color:#F2F3F3}
 
-/* Styling the rating */
-/******* EXAMPLE F *******/
-.rating-f .bar-rating a {
-    background: url('../img/star.png');
-    width: 24px;
-    height: 24px;
-    display: block;
-    float: left;
-}
-
-.rating-f .bar-rating a:hover,
-.rating-f .bar-rating a.active,
-.rating-f .bar-rating a.selected {
-    background-position: 0 24px;
-}
